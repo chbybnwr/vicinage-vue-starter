@@ -2,8 +2,8 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "src/App.tsx",
-        "README.md"
+        "README.md",
+        "src/App.tsx"
         //
       ]
     },
