@@ -109,7 +109,7 @@ export const Layout = defineComponent(function (_props, context) {
             </LinkItem>
             <LinkItem>
               <Link
-                href="https://bsky.app/profile/chbybnwr.bsky.social"
+                href="https://bsky.app/profile/chbybnwr.com"
                 target="_blank"
               >
                 <LinkIcon>
