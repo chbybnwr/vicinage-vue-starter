@@ -15,10 +15,10 @@ import { Responsive } from './examples/Responsive'
 const examples: Record<string, any> = {
   Start,
   Hello,
-  Responsive,
   Pseudo,
   Logical,
   Dynamic,
+  Responsive,
 }
 
 export const App = defineComponent(function () {
@@ -52,10 +52,6 @@ export const App = defineComponent(function () {
             {...apply({
               textDecoration: selectedExample.value === key && 'underline',
               color: selectedExample.value === key && color.blue500,
-              display: {
-                default: () => (key === 'Responsive' ? 'none' : null),
-                '@media (width >= 1280px)': 'block',
-              },
             })}
           >
             {key}
