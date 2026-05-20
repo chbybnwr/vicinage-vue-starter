@@ -6,6 +6,13 @@
         "README.md"
         //
       ]
+    },
+    "vscode": {
+      "extensions": [
+        "typescriptteam.native-preview",
+        "dbaeumer.vscode-eslint",
+        "zokugun.explicit-folding"
+      ]
     }
   },
   "postCreateCommand": "npm install",
