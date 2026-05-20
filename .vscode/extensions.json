@@ -1,3 +1,7 @@
 {
-  "recommendations": ["zokugun.explicit-folding"]
+  "recommendations": [
+    "zokugun.explicit-folding",
+    "typescriptteam.native-preview",
+    "dbaeumer.vscode-eslint"
+  ]
 }
