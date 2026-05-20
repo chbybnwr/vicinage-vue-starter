@@ -1,4 +1,6 @@
 {
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
   "js/ts.tsdk.path": "./node_modules/typescript/lib/",
   "js/ts.tsserver.node.path": "node",
   "js/ts.experimental.useTsgo": true,
