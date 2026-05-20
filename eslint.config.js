@@ -26,9 +26,6 @@ export default defineConfig([
       vicinage.configs.recommended,
       //
     ],
-    rules: {
-      'vicinage/valid-styles': 'off',
-    },
   },
 
   {
