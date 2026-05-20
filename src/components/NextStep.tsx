@@ -1,5 +1,4 @@
 import { apply } from 'vicinage'
-import { atMedia } from 'solarwindcss/at-media.stylex'
 import type { StyleXStyles } from '@stylexjs/stylex'
 import { defineComponent } from 'vue'
 
@@ -11,15 +10,15 @@ export const NextStep = defineComponent(
           {
             padding: {
               default: '24px 20px',
-              [atMedia.lg]: '32px',
+              '@media (width >= 1024px)': '32px',
             },
             borderBottom: {
               default: null,
-              [atMedia.lg]: '1px solid var(--border)',
+              '@media (width >= 1024px)': '1px solid var(--border)',
             },
             borderRight: {
               default: 'none',
-              [atMedia.lg]: '1px solid var(--border)',
+              '@media (width >= 1024px)': '1px solid var(--border)',
             },
             flexBasis: '0',
             flexGrow: '1',

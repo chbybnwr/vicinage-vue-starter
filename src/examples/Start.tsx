@@ -1,4 +1,3 @@
-import { atMedia } from 'solarwindcss/at-media.stylex'
 import { color } from 'solarwindcss/color.stylex'
 import { apply } from 'vicinage'
 import { defineComponent } from 'vue'
@@ -9,18 +8,18 @@ export const Start = defineComponent(function () {
       {...apply({
         padding: {
           default: '32px 20px 24px',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
         gap: {
           default: '18px',
-          [atMedia.lg]: '25px',
+          '@media (width >= 1024px)': '25px',
         },
         placeContent: 'center',
         placeItems: 'center',
         display: 'flex',
         flexDirection: {
           default: 'column',
-          [atMedia.lg]: 'row',
+          '@media (width >= 1024px)': 'row',
         },
       })}
     >

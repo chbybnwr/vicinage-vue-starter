@@ -11,7 +11,6 @@ import { spacing } from 'solarwindcss/spacing.stylex'
 import { Logical } from './examples/Logical'
 import { Dynamic } from './examples/Dynamic'
 import { Responsive } from './examples/Responsive'
-import { atMedia } from 'solarwindcss/at-media.stylex'
 
 const examples: Record<string, any> = {
   Start,
@@ -55,7 +54,7 @@ export const App = defineComponent(function () {
               color: selectedExample.value === key && color.blue500,
               display: {
                 default: () => (key === 'Responsive' ? 'none' : null),
-                [atMedia.xl]: 'block',
+                '@media (width >= 1280px)': 'block',
               },
             })}
           >

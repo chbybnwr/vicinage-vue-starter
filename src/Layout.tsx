@@ -1,5 +1,4 @@
 import { apply, sheet } from 'vicinage'
-import { atMedia } from 'solarwindcss/at-media.stylex'
 import { Link } from './components/Link'
 import { LinkIcon } from './components/LinkIcon'
 import { LinkItem } from './components/LinkItem'
@@ -28,11 +27,11 @@ export const Layout = defineComponent(function (_props, context) {
           display: 'flex',
           flexDirection: {
             default: 'column',
-            [atMedia.lg]: 'initial',
+            '@media (width >= 1024px)': 'initial',
           },
           textAlign: {
             default: 'center',
-            [atMedia.lg]: 'left',
+            '@media (width >= 1024px)': 'left',
           },
           borderTopColor: 'var(--border)',
           borderTopStyle: 'solid',
@@ -43,27 +42,27 @@ export const Layout = defineComponent(function (_props, context) {
           style={sheet({
             borderRightWidth: {
               default: 'none',
-              [atMedia.lg]: '1px',
+              '@media (width >= 1024px)': '1px',
             },
             borderRightStyle: {
               default: 'none',
-              [atMedia.lg]: 'solid',
+              '@media (width >= 1024px)': 'solid',
             },
             borderRightColor: {
               default: 'none',
-              [atMedia.lg]: 'var(--border)',
+              '@media (width >= 1024px)': 'var(--border)',
             },
             borderBottomWidth: {
               default: '1px',
-              [atMedia.lg]: 'none',
+              '@media (width >= 1024px)': 'none',
             },
             borderBottomStyle: {
               default: 'solid',
-              [atMedia.lg]: 'none',
+              '@media (width >= 1024px)': 'none',
             },
             borderBottomColor: {
               default: 'var(--border)',
-              [atMedia.lg]: 'none',
+              '@media (width >= 1024px)': 'none',
             },
           })}
         >

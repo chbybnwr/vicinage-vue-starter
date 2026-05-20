@@ -1,5 +1,4 @@
 import { apply } from 'vicinage'
-import { atMedia } from 'solarwindcss/at-media.stylex'
 import { defineComponent } from 'vue'
 
 export const LinkItem = defineComponent(function (_props, context) {
@@ -8,7 +7,7 @@ export const LinkItem = defineComponent(function (_props, context) {
       {...apply({
         flex: {
           default: '1 1 calc(50% - 8px)',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
       })}
     >

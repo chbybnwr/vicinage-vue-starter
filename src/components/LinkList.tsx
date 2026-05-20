@@ -1,5 +1,4 @@
 import { apply } from 'vicinage'
-import { atMedia } from 'solarwindcss/at-media.stylex'
 import { defineComponent } from 'vue'
 
 export const LinkList = defineComponent(function (_props, context) {
@@ -12,16 +11,16 @@ export const LinkList = defineComponent(function (_props, context) {
         display: 'flex',
         flexWrap: {
           default: 'wrap',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
         justifyContent: {
           default: 'center',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
         rowGap: '8px',
         marginTop: {
           default: '20px',
-          [atMedia.lg]: '32px',
+          '@media (width >= 1024px)': '32px',
         },
       })}
     >

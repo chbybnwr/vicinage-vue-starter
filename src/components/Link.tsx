@@ -1,5 +1,4 @@
 import { apply } from 'vicinage'
-import { atMedia } from 'solarwindcss/at-media.stylex'
 import { defineComponent, type IntrinsicElementAttributes } from 'vue'
 
 export const Link = defineComponent(function (
@@ -23,7 +22,7 @@ export const Link = defineComponent(function (
         },
         boxSizing: {
           default: 'border-box',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
         color: 'var(--text-h)',
         columnGap: '8px',
@@ -31,12 +30,12 @@ export const Link = defineComponent(function (
         fontSize: '16px',
         justifyContent: {
           default: 'center',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
         rowGap: '8px',
         width: {
           default: '100%',
-          [atMedia.lg]: 'initial',
+          '@media (width >= 1024px)': 'initial',
         },
       })}
     >
