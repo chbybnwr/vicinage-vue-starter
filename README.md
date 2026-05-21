@@ -1,8 +1,8 @@
 # Vicinage + Vue on Vite
 
-This template provides a minimal setup to get [Vicinage](https://github.com/chbybnwr/vicinage) + Vue working in Vite with some ESLint rules.
+This template provides a minimal setup to get [Vicinage](https://github.com/chbybnwr/vicinage) + Vue working on Vite.
 
-[Open in Codespaces](https://codespaces.new/chbybnwr/vicinage-vue-starter)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/chbybnwr/vicinage-vue-starter)
 
 ## Getting Started
 

@@ -1,4 +1,14 @@
 {
+  "postCreateCommand": "npm install",
+  "postAttachCommand": {
+    "server": "npm run dev"
+  },
+  "portsAttributes": {
+    "5173": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
   "customizations": {
     "codespaces": {
       "openFiles": [
@@ -8,18 +18,14 @@
       ]
     },
     "vscode": {
+      "settings": {
+        "workbench.secondarySideBar.defaultVisibility": "hidden"
+      },
       "extensions": [
         "typescriptteam.native-preview",
         "dbaeumer.vscode-eslint",
         "zokugun.explicit-folding"
       ]
-    }
-  },
-  "postCreateCommand": "npm install",
-  "portsAttributes": {
-    "5173": {
-      "label": "Application",
-      "onAutoForward": "openPreview"
     }
   }
 }
