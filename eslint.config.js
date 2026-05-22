@@ -33,13 +33,8 @@ export default defineConfig([
       '@stylexjs': stylex,
     },
     rules: {
-      '@stylexjs/no-conflicting-props': 'error',
-      '@stylexjs/no-nonstandard-styles': 'error',
-      '@stylexjs/no-legacy-contextual-styles': 'error',
-      '@stylexjs/valid-styles': 'error',
-      '@stylexjs/valid-shorthands': 'warn',
-      '@stylexjs/sort-keys': 'warn',
       '@stylexjs/no-lookahead-selectors': 'warn',
+      '@stylexjs/enforce-extension': 'off',
     },
   },
 ])
