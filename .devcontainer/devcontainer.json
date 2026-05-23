@@ -1,4 +1,5 @@
 {
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:4-24-trixie",
   "postCreateCommand": "npm install",
   "postAttachCommand": {
     "server": "npm run dev"
