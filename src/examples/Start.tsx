@@ -6,21 +6,7 @@ export const Start = defineComponent(function () {
   return () => (
     <section
       {...apply({
-        padding: {
-          default: '32px 20px 24px',
-          '@media (width >= 1024px)': 'initial',
-        },
-        gap: {
-          default: '18px',
-          '@media (width >= 1024px)': '25px',
-        },
-        placeContent: 'center',
-        placeItems: 'center',
-        display: 'flex',
-        flexDirection: {
-          default: 'column',
-          '@media (width >= 1024px)': 'row',
-        },
+        gap: '18px',
       })}
     >
       <div>
@@ -33,7 +19,7 @@ export const Start = defineComponent(function () {
         </h1>
         <p>
           Open <code>src/App.tsx</code>
-        </p>{' '}
+        </p>
       </div>
     </section>
   )
