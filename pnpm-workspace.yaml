@@ -1,5 +1,0 @@
-minimumReleaseAgeExclude:
-  - vicinage
-  - '@vicinage/unplugin'
-  - '@vicinage/eslint-plugin'
-  - solarwindcss
